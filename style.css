@@ -1,8 +1,8 @@
-body {
-    font-family: 'Muli', sans-serif;
-}
 
 @font-face {
-    font-family: "mulish";
-    src: url("./src/assets/fonts/Mulish-Italic-VariableFont_wght.ttf");
+    font-family: "Mulish";
+    src: url("./src/assets/fonts/static/Mulish-Bold.ttf") format("truetype");
+}
+body {
+    font-family: 'Mulish', sans-serif !important;
 }
