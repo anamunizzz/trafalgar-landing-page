@@ -74,3 +74,61 @@ body {
 .dot.active {
     background-color: #0f8df5;
 }
+
+.read-more {
+    color: #007bff; /* Azul padrão do Bootstrap */
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center; /* Alinha a seta com o texto */
+    gap: 5px; /* Espaço entre o texto e a seta */
+    transition: 0.3s;
+}
+
+.read-more:hover {
+    color: #0056b3; /* Azul mais escuro no hover */
+}
+.footer {
+    background: linear-gradient(to right, #0f8df5, #7baffc); /* Gradiente */
+    color: white;
+    width: 100vw; /* Garante que ocupa toda a tela */
+    margin: 0;
+    padding: 50px 0;
+    position: relative; /* Garante que ele fique fixo no layout */
+    left: 0;
+    right: 0;
+}
+
+
+footer .container-fluid {
+    width: 100%; /* Faz com que o container ocupe toda a largura */
+    padding-left: 0 !important; 
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between; /* Distribui melhor as colunas */
+    flex-wrap: wrap;
+    margin: 0 !important;
+}
+
+
+
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.logo-text {
+    font-weight: bold;
+    color: #0f8df5;
+    font-size: 18px;
+}
+
+
+
