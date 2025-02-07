@@ -4,7 +4,7 @@ body {
 .divider-line {
     width: 50px; /* Largura da linha */
     height: 3px; /* Espessura */
-    background-color: black; /* Cor da linha */
+    background-color: rgb(255, 255, 255); /* Cor da linha */
     
 }
 .card {
@@ -23,3 +23,54 @@ body {
     padding: 40px 0; /* Adiciona espaçamento acima e abaixo */
     margin-top: 5px;
   }
+  .retangulo {
+    width: 900px;  /* Largura */
+    height: 300px; /* Altura */
+    background:linear-gradient(to right, #0f8df5, #7baffc);
+    margin: auto;
+    border-radius: 20px; /* Arredonda as bordas */
+    color: rgb(255, 255, 255); /* Define a cor do texto como branca */
+    display: flex;
+    flex-direction: column; /* Garante que os elementos fiquem empilhados */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: flex-start; /* Centraliza verticalmente */
+    padding-top: 30px;
+  }
+  /* Container do controle de navegação */
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espaçamento entre os elementos */
+    margin-top: 20px;
+}
+
+/* Setas */
+.arrow {
+    font-size: 24px;
+    color: #0f8df5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    color: #0056b3;
+}
+
+/* Paginadores (bolinhas) */
+.dots {
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #c3d9ff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #0f8df5;
+}
