@@ -10,12 +10,17 @@ body {
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicione um sombreamento suave */
     transition: transform 0.2s; /* Animação ao passar o mouse */
+    border-radius: 20px;
   }
   
   .card:hover {
     transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    background: white;
+    z-index: 1; /* Mantém os cards na frente */
+    border-radius: 10px; /* Bordas arredondadas como no exemplo */
+  }
+  section {
+    padding: 40px 0; /* Adiciona espaçamento acima e abaixo */
+    margin-top: 5px;
   }
   
-  .container.text-center {
-    margin-top: 20px; /* Espaçamento entre a divisão e os cards */
-  }
