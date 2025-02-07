@@ -5,7 +5,7 @@ body {
     width: 50px; /* Largura da linha */
     height: 3px; /* Espessura */
     background-color: black; /* Cor da linha */
-    margin: 10px auto; /* Centraliza */
+    
 }
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicione um sombreamento suave */
@@ -23,4 +23,3 @@ body {
     padding: 40px 0; /* Adiciona espaçamento acima e abaixo */
     margin-top: 5px;
   }
-  
