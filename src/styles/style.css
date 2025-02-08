@@ -36,6 +36,34 @@ body {
     justify-content: flex-start; /* Centraliza verticalmente */
     padding-top: 30px;
   }
+  .retangulo h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.feedback-content blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.customer-info {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.customer-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.customer-title {
+    color: #777;
+}
+
   /* Container do controle de navegação */
 .carousel-controls {
     display: flex;
