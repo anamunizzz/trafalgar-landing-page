@@ -101,6 +101,11 @@ body {
     color: #0f8df5;
     font-size: 18px;
 }
-
+.footer {
+    background: linear-gradient(to right, #0f8df5, #7baffc); /* Gradiente */
+    color: white;
+    width: 100vw; /* Garante que ocupa toda a tela */
+    margin: 0;
+    padding: 50px 0; }
 
 
