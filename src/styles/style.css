@@ -27,8 +27,9 @@ section {
 }
 
 .retangulo {
-    width: 900px;  /* Largura */
-    height: 300px; /* Altura */
+    width: 90%; /* Ocupa 90% da largura da tela */
+    max-width: 900px; /* Limita o tamanho máximo */
+    height: auto; /* Altura automática */
     background: linear-gradient(to right, #0f8df5, #7baffc);
     margin: auto;
     border-radius: 20px; /* Arredonda as bordas */
@@ -36,9 +37,69 @@ section {
     display: flex;
     flex-direction: column; /* Garante que os elementos fiquem empilhados */
     align-items: center; /* Centraliza horizontalmente */
-    justify-content: flex-start; /* Centraliza verticalmente */
-    padding-top: 30px;
+    justify-content: center; /* Centraliza verticalmente */
+    padding: 40px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
 }
+
+/* Divider */
+.divider-container {
+    width: 50px; /* Largura do divisor */
+    margin: 20px 0; /* Espaçamento acima e abaixo */
+}
+
+.divider-line {
+    width: 100%; /* Largura total */
+    height: 2px; /* Espessura */
+    background-color: white; /* Cor do divisor */
+}
+
+/* Conteúdo do cliente */
+.customer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os elementos */
+    margin-top: 20px;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaçamento entre a imagem e o texto */
+}
+
+.customer-avatar {
+    width: 60px; /* Tamanho da imagem */
+    height: 60px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    object-fit: cover; /* Garante que a imagem cubra o espaço */
+}
+
+.customer-details {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.customer-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.customer-role {
+    font-size: 14px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8); /* Cor mais clara para o cargo */
+}
+
+.customer-quote {
+    font-size: 16px;
+    font-style: italic;
+    max-width: 600px; /* Limita a largura do texto */
+    margin: 0;
+    line-height: 1.5; /* Espaçamento entre as linhas */
+}
+
 
 /* Container do controle de navegação */
 .carousel-controls {
