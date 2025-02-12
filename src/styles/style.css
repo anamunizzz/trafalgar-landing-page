@@ -1,69 +1,35 @@
-/* Ajustes para o header */
-header {
-    flex-direction: column; /* Empilha os itens verticalmente em telas pequenas */
-    padding: 10px; /* Reduz o padding */
-}
-
-header nav {
-    flex-direction: column; /* Empilha os links do menu */
-    gap: 10px; /* Espaçamento entre os links */
-    margin-top: 10px; /* Espaço entre o logo e o menu */
-}
-
-header nav a {
-    font-size: 16px; /* Reduz o tamanho da fonte */
-}
-
-/* Ajustes para a seção principal */
-main .d-flex {
-    flex-direction: column; /* Empilha os elementos verticalmente */
-    text-align: center; /* Centraliza o texto */
-}
-
-main img {
-    width: 100%; /* Faz a imagem ocupar a largura total */
-    max-width: 300px; /* Limita o tamanho máximo */
-    margin-top: 20px; /* Espaço entre o texto e a imagem */
-}
-
 body {
     font-family: 'Mulish', sans-serif;
 }
+
 .divider-line {
     width: 50px; /* Largura da linha */
     height: 3px; /* Espessura */
     background-color: rgb(255, 255, 255); /* Cor da linha */
-    
 }
 
-/* Ajustes para os cards */
-.row-cols-md-2 {
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas em tablets */
-}
-
-.row-cols-1 {
-    grid-template-columns: repeat(1, 1fr); /* 1 coluna em smartphones */
-}
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicione um sombreamento suave */
     transition: transform 0.2s; /* Animação ao passar o mouse */
     border-radius: 20px;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
     background: white;
     z-index: 1; /* Mantém os cards na frente */
     border-radius: 10px; /* Bordas arredondadas como no exemplo */
-  }
-  section {
+}
+
+section {
     padding: 40px 0; /* Adiciona espaçamento acima e abaixo */
     margin-top: 5px;
-  }
-  .retangulo {
+}
+
+.retangulo {
     width: 900px;  /* Largura */
     height: 300px; /* Altura */
-    background:linear-gradient(to right, #0f8df5, #7baffc);
+    background: linear-gradient(to right, #0f8df5, #7baffc);
     margin: auto;
     border-radius: 20px; /* Arredonda as bordas */
     color: rgb(255, 255, 255); /* Define a cor do texto como branca */
@@ -72,17 +38,9 @@ body {
     align-items: center; /* Centraliza horizontalmente */
     justify-content: flex-start; /* Centraliza verticalmente */
     padding-top: 30px;
-  }
-  
-/* Ajustes para o retângulo */
-.retangulo {
-    width: 90%; /* Ocupa 90% da largura da tela */
-    max-width: 900px; /* Limita o tamanho máximo */
-    height: auto; /* Altura automática */
-    padding: 20px; /* Espaçamento interno */
 }
 
-  /* Container do controle de navegação */
+/* Container do controle de navegação */
 .carousel-controls {
     display: flex;
     justify-content: center;
@@ -148,21 +106,13 @@ body {
     font-size: 18px;
 }
 
-/* Ajustes para o footer */
-.footer .row {
-    flex-direction: column; /* Empilha as colunas */
-    text-align: center; /* Centraliza o texto */
-}
-
-.footer .col-lg-3 {
-    margin-bottom: 20px; /* Espaço entre as colunas */
-}
 .footer {
     background: linear-gradient(to right, #0f8df5, #7baffc); /* Gradiente */
     color: white;
     width: 100vw; /* Garante que ocupa toda a tela */
     margin: 0;
-    padding: 50px 0; }
+    padding: 50px 0;
+}
 
 /* Telas menores que 768px (tablets e smartphones) */
 @media (max-width: 768px) {
@@ -177,39 +127,43 @@ body {
         margin-top: 10px;
     }
 
+    header nav a {
+        font-size: 16px; /* Reduz o tamanho da fonte */
+    }
+
     main .d-flex {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        text-align: center; /* Centraliza o texto */
     }
 
     main img {
-        width: 100%;
-        max-width: 300px;
-        margin-top: 20px;
+        width: 100%; /* Faz a imagem ocupar a largura total */
+        max-width: 300px; /* Limita o tamanho máximo */
+        margin-top: 20px; /* Espaço entre o texto e a imagem */
     }
 
     .row-cols-md-2 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas em tablets */
     }
 
     .row-cols-1 {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr); /* 1 coluna em smartphones */
     }
 
     .retangulo {
-        width: 90%;
-        max-width: 900px;
-        height: auto;
-        padding: 20px;
+        width: 90%; /* Ocupa 90% da largura da tela */
+        max-width: 900px; /* Limita o tamanho máximo */
+        height: auto; /* Altura automática */
+        padding: 20px; /* Espaçamento interno */
     }
 
     .footer .row {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column; /* Empilha as colunas */
+        text-align: center; /* Centraliza o texto */
     }
 
     .footer .col-lg-3 {
-        margin-bottom: 20px;
+        margin-bottom: 20px; /* Espaço entre as colunas */
     }
 }
 
