@@ -1,4 +1,4 @@
-<# Trafalgar Landing Page
+<#Trafalgar Landing Page
 
 Este repositório contém a implementação de uma landing page para a Trafalgar, uma plataforma fictícia de serviços de saúde. O projeto foi desenvolvido com foco em design responsivo e boas práticas de desenvolvimento web.
 
