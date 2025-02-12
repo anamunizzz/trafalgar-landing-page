@@ -35,6 +35,15 @@ body {
     background-color: rgb(255, 255, 255); /* Cor da linha */
     
 }
+
+/* Ajustes para os cards */
+.row-cols-md-2 {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas em tablets */
+}
+
+.row-cols-1 {
+    grid-template-columns: repeat(1, 1fr); /* 1 coluna em smartphones */
+}
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicione um sombreamento suave */
     transition: transform 0.2s; /* Animação ao passar o mouse */
