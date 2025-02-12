@@ -74,6 +74,14 @@ body {
     padding-top: 30px;
   }
   
+/* Ajustes para o retângulo */
+.retangulo {
+    width: 90%; /* Ocupa 90% da largura da tela */
+    max-width: 900px; /* Limita o tamanho máximo */
+    height: auto; /* Altura automática */
+    padding: 20px; /* Espaçamento interno */
+}
+
   /* Container do controle de navegação */
 .carousel-controls {
     display: flex;
@@ -138,6 +146,16 @@ body {
     font-weight: bold;
     color: #0f8df5;
     font-size: 18px;
+}
+
+/* Ajustes para o footer */
+.footer .row {
+    flex-direction: column; /* Empilha as colunas */
+    text-align: center; /* Centraliza o texto */
+}
+
+.footer .col-lg-3 {
+    margin-bottom: 20px; /* Espaço entre as colunas */
 }
 .footer {
     background: linear-gradient(to right, #0f8df5, #7baffc); /* Gradiente */
