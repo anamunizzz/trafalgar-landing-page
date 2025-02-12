@@ -14,6 +14,18 @@ header nav a {
     font-size: 16px; /* Reduz o tamanho da fonte */
 }
 
+/* Ajustes para a seção principal */
+main .d-flex {
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    text-align: center; /* Centraliza o texto */
+}
+
+main img {
+    width: 100%; /* Faz a imagem ocupar a largura total */
+    max-width: 300px; /* Limita o tamanho máximo */
+    margin-top: 20px; /* Espaço entre o texto e a imagem */
+}
+
 body {
     font-family: 'Mulish', sans-serif;
 }
