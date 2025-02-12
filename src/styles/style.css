@@ -1,3 +1,19 @@
+/* Ajustes para o header */
+header {
+    flex-direction: column; /* Empilha os itens verticalmente em telas pequenas */
+    padding: 10px; /* Reduz o padding */
+}
+
+header nav {
+    flex-direction: column; /* Empilha os links do menu */
+    gap: 10px; /* Espaçamento entre os links */
+    margin-top: 10px; /* Espaço entre o logo e o menu */
+}
+
+header nav a {
+    font-size: 16px; /* Reduz o tamanho da fonte */
+}
+
 body {
     font-family: 'Mulish', sans-serif;
 }
