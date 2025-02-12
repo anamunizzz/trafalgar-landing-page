@@ -1,8 +1,8 @@
-<h1>Trafalgar Landing Page<h1/>
+<h1>Trafalgar Landing Page<h1>
   
-Este repositório contém a implementação de uma landing page para a Trafalgar, uma plataforma fictícia de serviços de saúde. O projeto foi desenvolvido com foco em design responsivo e boas práticas de desenvolvimento web.
+<h3>Este repositório contém a implementação de uma landing page para a Trafalgar, uma plataforma fictícia de serviços de saúde. O projeto foi desenvolvido com foco em design responsivo e boas práticas de desenvolvimento web.
 
-Este repositório contém a implementação de uma landing page para a **Trafalgar**, uma plataforma fictícia de serviços de saúde. O projeto foi desenvolvido com foco em design responsivo e boas práticas de desenvolvimento web.
+Este repositório contém a implementação de uma landing page para a **Trafalgar**, uma plataforma fictícia de serviços de saúde. O projeto foi desenvolvido com foco em design responsivo e boas práticas de desenvolvimento web.<h3>
 
 ![Preview da Landing Page](./src/assets/img/preview.PNG) <!-- Adicione uma imagem de preview se possível -->
 
