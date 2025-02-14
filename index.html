@@ -16,32 +16,29 @@
 
 <body>
 
-    <!-- Navbar -->
-    <header class="w-100 py-3 px-5 d-flex align-items-center justify-content-between">
-      <div class="d-flex align-items-center gap-3">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-3" href="#">
         <img width="100" height="90" src="./src/assets/img/logo.PNG" alt="">
-        <h2 class="fw-bold">Trafalgar</h2>
+        <h2 class="fw-bold mb-0">Trafalgar</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-dark fs-5 fw-bold" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fs-5" href="#service">Find a doctor</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fs-5" href="#depoimentos">Apps</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fs-5" href="#contact">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fs-5" href="#contact">About us</a></li>
+        </ul>
       </div>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Meu Site</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item text-dark fs-5 fw-bold text-decoration-none"><a class="nav-link" href="#hero">Home</a></li>
-                    <li class="nav-item text-dark fs-5 text-decoration-none"><a class="nav-link" href="#service">Find a doctor</a></li>
-                    <li class="nav-item text-dark fs-5 text-decoration-none"><a class="nav-link" href="#depoimentos">Apps</a></li>
-                    <li class="nav-item text-dark fs-5 text-decoration-none"><a class="nav-link" href="#contact">Testimonials</a></li>
-                    <li class="nav-item text-dark fs-5 text-decoration-none"><a class="nav-link" href="#contact">About us</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    </div>
+  </nav>
 
-  </header>
-  <main class="container">
+  <main class="container" style="padding-top: 100px;">
     <div class="d-flex align-items-center justify-content-between">
       <div>
         <h1 class="fw-bold">Virtual healthcare for you</h1>
